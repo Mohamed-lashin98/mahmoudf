@@ -1,0 +1,383 @@
+*
+{
+    margin: auto;
+}
+
+body
+{
+    
+    background-color:currentColor ;
+}
+
+
+
+
+
+
+
+
+
+
+/************************header*****************/
+
+
+
+
+
+
+
+
+
+header
+{
+    
+    background-color:aliceblue;
+    height: 40px;
+    overflow: hidden;
+    padding: 25px;
+}
+
+header h1
+{
+    
+    float: left;
+    font-family:calibri;
+}
+
+.logo
+{
+    color: #5fc1e8;   
+}
+
+header nav{
+    
+    float: right;
+}
+
+header nav ul
+{
+    list-style-type: none;
+    
+}
+
+.h-logo a:link
+{
+    font-size: 34pt;
+    color: currentColor;
+}
+
+.h-logo a:hover
+{
+    text-decoration: none;
+    color: coral;
+}
+
+header nav ul li
+{
+ float: left; 
+    margin-right: 20px
+}
+
+a:link
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20pt;
+    font-family: calibri;
+    color: #43b7e4;
+}
+
+a:hover
+{
+    text-decoration: underline;
+    color:firebrick;
+    transition: 1s;
+    
+}
+
+
+
+
+
+
+
+
+
+
+/**********************jumbotron********************/
+
+
+
+
+
+
+
+
+
+
+
+#jumbotron
+{
+    background-color: aquamarine;
+    height: 1500px;
+    background: url(imeg/fff.png) no-repeat;
+    background-size: 100%;
+    padding: 100px;
+}
+
+#jumbotron h2
+{
+    float: right;
+    color: #1b97c8;
+    text-shadow: 3px 3px 8px #fff;
+    font-size: 50pt;
+    font-family: calibri;
+}
+
+#jumbotron p
+{ 
+    width: 700px;
+    font-size: 18pt;
+    color:aliceblue;
+    position: absolute;
+    right: 60px;
+    top: 300px;  
+}
+
+.readmore
+{
+   position: absolute;
+    right: 100px;
+    bottom: 280px;
+    border: 1px solid #43b7e4;
+    padding: 10px;
+    background-color: aliceblue;      
+}
+
+
+
+
+
+
+
+/*****features*******/
+
+
+
+
+
+
+
+
+
+#features
+{
+    text-align: center;
+    width: 1000px;
+}
+
+#features ul
+{
+   list-style: none; 
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+#features ul li
+{
+   float: left;
+    
+    border: 1px solid #ccc;
+        height: 140px;
+            overflow: hidden;
+    width: 280px;
+    margin-right: 10px;
+    padding-top: 110px;
+}
+
+
+#features #feature-1
+{
+    background: url(imeg/bock.png) no-repeat top center;
+    background-size: 100px 100px;
+    background-color: #fff;
+}
+
+#features #feature-2
+{
+    background: url(imeg/meting.jpg) no-repeat top center;
+    background-size: 100px 100px;
+    background-color: #fff;
+}
+
+
+#features #feature-3
+{
+    background: url(imeg/call.png) no-repeat top center;
+    background-size: 100px 100px;
+    background-color: #fff;
+}
+
+
+
+
+
+
+
+/**********content**********/
+
+
+
+
+
+
+
+#content
+{
+   
+    margin-top: 15px;
+    padding-left: 100px; 
+    padding-right: 100px;
+}
+
+article
+{
+    overflow: hidden;
+     background-color: #000;
+    margin-bottom: 10px;
+    border: 1px solid #000;
+    padding: 20px;
+    
+}
+article h3 a:link
+{
+    color: #3eadd9;
+    border-bottom: 1px dotted #3eadd9;
+    font-size: 24pt;
+    text-transform:uppercase;
+    margin-bottom: 10px;
+    
+}
+
+article h3 a:hover
+{
+    text-decoration: none;
+    color: #2081a7;
+    
+}
+
+article p
+{
+    font-family: calibri;
+    font-size: 18pt;
+    float: left;
+    width: 65%;
+    text-align: justify;
+    margin-top: 20px;
+    color: aqua;
+}
+
+article img
+{
+    float: right;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 7px;
+    width: 400px;
+    height: 300px;
+        
+}
+
+article .read
+{
+    float: right;
+    margin-right: 20px;
+    background-color: #000;
+    border: 1px solid #54b6dd;
+    padding: 7px;
+    margin-top: 10px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+/**************footer*********/
+
+
+
+
+
+
+
+footer
+{
+    background-color:#000;
+    overflow: hidden;
+    padding-top:40px;
+    padding-right: 300px;
+    padding-left: 300px;
+    border-top: 4px solid #dbdbdb;
+  
+        
+}
+#first-footer
+{
+    overflow: hidden;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    
+    
+    
+}
+#first-footer ul
+{
+    list-style-type: none;
+    float:left;
+    width: 250px;
+    
+    margin-right: 15px;
+}
+
+#first-footer ul li
+{
+  text-indent: 20px;
+    margin-top: 10px;
+}
+
+#first-footer h4
+{
+    color: #18607d;
+    border-bottom:1px dotted #18607d;
+}
+
+#second-footer
+{
+    text-align: center;
+    color: #5883ff;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
